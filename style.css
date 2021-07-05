@@ -9,6 +9,8 @@ h1{
 body{
     font-family: 'Playfair Display', serif;
     margin:0;
+    background-image: url(top-banner.png);
+    background-repeat:no-repeat;
 }
 .div-paragraph{
     text-align:justify;
@@ -18,8 +20,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-section{
+.exp-sec{
     display:flex;
+    margin-bottom:50px;
 }
 .first-div{
     width:50%;
@@ -35,3 +38,34 @@ section{
     color:black;
     border-radius:5px;
 }
+.second-sec{
+    background-image: url(img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-sec h1{
+    padding:40px 30px 0px;
+    margin-left:30px;
+}
+.second-div{
+    width:40%;
+    margin:2% 5%;
+    box-shadow: 10px 10px 20px;
+    border-radius:5px;
+    padding:20px;
+    
+}
+.border-img-first{
+    border-left:10px solid;
+    border-image:linear-gradient(red,orange);
+    border-image-slice:1;
+}
+.border-img-second{
+    border-left:10px solid;
+    border-image:linear-gradient(pink,cyan);
+    border-image-slice:1;
+}
+.second-para{
+    font-weight:600;
+}
+
